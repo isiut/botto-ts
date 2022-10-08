@@ -1,0 +1,20 @@
+{
+  "name": "botto-ts",
+  "version": "1.0.0",
+  "description": "Discord bot written in TypeScript",
+  "main": "src/Bot.ts",
+  "scripts": {
+    "start": "ts-node src/Bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isiut/botto-ts.git"
+  },
+  "author": "Illia Siutkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isiut/botto-ts/issues"
+  },
+  "homepage": "https://github.com/isiut/botto-ts#readme"
+}
