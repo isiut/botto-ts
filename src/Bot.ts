@@ -1,9 +1,9 @@
 import { Client, ClientOptions } from "discord.js";
 import interactionCreate from "./listeners/interactionCreate";
 import ready from "./listeners/ready";
-import tkn from "./config.json";
+import config from "./config.json";
 
-const token: string = tkn.tkn;
+const token: string = config.tkn;
 
 console.log("Starting ...");
 
